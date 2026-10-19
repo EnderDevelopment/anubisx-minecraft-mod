@@ -1,0 +1,7 @@
+accessible example_mod:com/example/ExampleMod
+
+accessible example_mod:com/example/mixin
+
+accessible example_mod:com/example/mixin/client
+
+accessible example_mod:com/example/mixin/server

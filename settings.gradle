@@ -1,0 +1,3 @@
+rootProject.name = 'enderdevelopment'
+include 'src/main/java'
+include 'src/main/resources'

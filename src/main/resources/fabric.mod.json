@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "enderdevelopment",
+  "version": "${version}",
+  "name": "EnderDevelopment Mod",
+  "description": "A Minecraft mod with various features",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/enderdevelopment/mod"
+  },
+  "license": "MIT",
+  "icon": "assets/enderdevelopment/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.mod.Main"
+    ]
+  },
+  "mixins": [
+    "enderdevelopment.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.1",
+    "fabric-api": "*"
+  }
+}
